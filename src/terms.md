@@ -44,9 +44,11 @@ You agree not to:
 
 ## 5. No Account Required
 
-ChengyuDrop does not require you to create an account or sign in. Your preferences and progress — including bookmarks, category selections, chosen wallpaper, and onboarding answers — are stored **locally on your device**, as described in our [Privacy Policy](/).
+ChengyuDrop does not require you to create an account or sign in. Your preferences and progress — including bookmarks, category selections, and chosen wallpaper — are stored **locally on your device**, as described in our [Privacy Policy](/).
 
-This has a consequence worth understanding: because this data is not held on our servers, it is **not backed up by us and cannot be recovered by us**. If you delete the App, reset your device, or clear the App's data, that information is gone. Your subscription entitlement itself is tied to your App Store or Google Play account and can be restored (see Section 6.5).
+This has a consequence worth understanding: because that data is not held on our servers, it is **not backed up by us and cannot be recovered by us**. If you delete the App, reset your device, or clear the App's data, that information is gone. Your subscription entitlement itself is tied to your App Store or Google Play account and can be restored (see Section 6.5).
+
+Your **onboarding answers** are treated differently: as explained in the [Privacy Policy](/), a copy is also held on our servers against an anonymous identifier, and that copy is not removed by deleting the App. See Section 7 of the Privacy Policy for how to request its deletion.
 
 ## 6. Premium Subscriptions
 
@@ -190,8 +192,8 @@ If you obtained the App from Google Play, your use is also subject to the Google
 
 Questions about these Terms:
 
-**Shaikha Alsuwaidi** \
-United Arab Emirates \
+**Shaikha Alsuwaidi**
+United Arab Emirates
 Email: **chengyudrop@gmail.com**
 
 ## 23. Acknowledgment

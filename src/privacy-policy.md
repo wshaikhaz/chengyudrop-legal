@@ -1,6 +1,6 @@
 # Privacy Policy for ChengyuDrop
 
-**Effective date:** July 14, 2026
+**Effective date:** July 15, 2026
 
 ## 1. Introduction
 
@@ -12,19 +12,27 @@ ChengyuDrop is a flashcard app for learning Chinese idioms (chengyu). It is publ
 
 ### Information you provide directly
 
-During onboarding you may provide: your **name**, **age range**, **gender**, **HSK level**, **idiom category preferences**, and a **daily learning goal**. You also choose your **notification preferences**. This information is used to personalize your experience and is included in our product analytics (see PostHog below).
+During onboarding you may provide: your **name**, **age range**, **gender**, **HSK level**, **idiom category preferences**, and a **daily learning goal**. You also choose your **notification preferences**. We use this information to personalize your experience.
+
+Your onboarding responses are stored in three places:
+
+- **On your device**, so the App can work offline;
+- **In our product analytics** (see PostHog below); and
+- **On our own server** (see Supabase below), saved against the anonymous subscription identifier described below rather than against your name, an email address, or an account.
 
 ### Information collected automatically
 
 - **Usage analytics** (via PostHog): screens you view and in-app actions you take — such as completing onboarding, bookmarking or revealing an idiom, swiping cards, changing categories, and interacting with the subscription screen — along with an anonymous analytics identifier and basic app-lifecycle events (e.g. app opened).
 - **Crash and performance data, and session replays** (via Sentry): diagnostic data when the App errors or crashes, including device information and IP address, and a sampled recording of app sessions used to reproduce and fix issues.
-- **Subscription and purchase data** (via RevenueCat): your subscription status and purchase history for the App's premium features. Payment card details are handled by Apple/Google and are never received by us.
+- **Subscription and purchase data** (via RevenueCat): your subscription status and purchase history for the App's premium features, together with an **anonymous app user identifier** generated for your installation of the App. Because ChengyuDrop has no accounts, this identifier is the only stable way we can refer to your installation, and we also use it as the key under which your onboarding responses are stored (see Supabase below). Payment card details are handled by Apple/Google and are never received by us.
 - **Attribution and advertising data** (via Tenjin): install and session data used to measure marketing campaigns, including your device's **advertising identifier (IDFA)** **only when you grant permission** through Apple's App Tracking Transparency prompt.
 - **Device information**: device model, operating-system version, and app version.
 
 ### Information stored only on your device
 
-The following stays on your device and is not transmitted to us: your **bookmarked idioms**, **chosen wallpaper/background**, **category selections**, **cached idiom content**, and **onboarding progress**. This data is removed when you delete the App.
+The following stays on your device and is not transmitted to us: your **bookmarked idioms**, **chosen wallpaper/background**, the **categories you are currently filtering by**, **cached idiom content**, and whether you have **completed onboarding**. This data is removed when you delete the App, and we hold no copy of it.
+
+Your onboarding *answers* are also kept on your device, but — unlike the items listed above — they are additionally sent to PostHog and Supabase, as described earlier in this section. This includes the category preferences you chose during onboarding, which are part of those answers even though the categories you later browse are not recorded.
 
 ## 3. How We Use Your Information
 
@@ -47,7 +55,7 @@ ChengyuDrop relies on the following third-party services, each governed by its o
 - **PostHog** — product analytics and session/event capture. Privacy policy: https://posthog.com/privacy
 - **Sentry** — crash reporting, performance monitoring, and session replay. Privacy policy: https://sentry.io/privacy/
 - **Tenjin** — mobile install attribution and advertising measurement (uses the IDFA only with your App Tracking Transparency consent). Privacy policy: https://www.tenjin.com/privacy-policy/
-- **Supabase** — hosts the read-only idiom and category content the App displays; it does not store your personal data. Privacy policy: https://supabase.com/privacy
+- **Supabase** — serves two separate purposes: it hosts the idiom and category content the App displays (read-only, containing no personal data), and it stores the **onboarding responses** described in Section 2, keyed to the anonymous subscription identifier rather than to an account. Privacy policy: https://supabase.com/privacy
 - **Apple App Store / Google Play** — process payments for subscriptions. See Apple's and Google's respective privacy policies.
 
 On iOS, advertising/attribution tracking through Tenjin occurs only if you allow it via the App Tracking Transparency prompt; you can change this at any time in **Settings → Privacy & Security → Tracking** (or **Settings → ChengyuDrop**).
@@ -56,6 +64,7 @@ On iOS, advertising/attribution tracking through Tenjin occurs only if you allow
 
 - **Analytics, crash, and attribution data** are retained according to each third-party provider's retention schedule (typically 90 days to 24 months).
 - **Subscription records** are retained for as long as needed to manage your access and meet legal, accounting, and tax obligations.
+- **Onboarding responses stored on our server** are retained until you ask us to delete them (see Section 7), or until we no longer need them to operate and improve the App. Deleting the App does **not** remove them, because they are held against an identifier rather than on your device.
 - **On-device data** persists until you delete the App or clear its data.
 
 You may request deletion of data associated with you at any time (see Section 7).
@@ -77,6 +86,14 @@ Depending on where you live, you may have the right to:
 - **Object to or restrict** certain processing.
 
 To exercise any of these rights, contact us at **chengyudrop@gmail.com**. We will respond within the time required by applicable law (and within one month for requests under the GDPR).
+
+**Helping us find your data.** ChengyuDrop has no accounts, so we hold no email address or login that identifies you. The onboarding responses we store are saved against an anonymous identifier generated by your installation of the App, and we have no way to connect that identifier to you from the outside.
+
+So that we can locate your data, please include in your message the details you entered during onboarding — your **name**, **age range**, **gender**, and **HSK level** — and roughly **when you started using the App**. We may ask you for further detail if what you provide matches more than one record, or none.
+
+We will not delete or disclose records unless we are reasonably confident they are yours, since doing otherwise would risk affecting another person's data. If we cannot identify your data from the information available, we may be unable to action the request, and we are not required to collect additional information solely in order to do so.
+
+**Deleting the App** removes everything stored on your device, but does not remove the onboarding responses held on our servers or data already collected by the third-party services listed in Section 4. Use the contact address above to request their deletion.
 
 ## 8. Children's Privacy
 
@@ -102,8 +119,8 @@ If you are a California resident, you have the right to know what personal infor
 
 If you have questions about this Privacy Policy or your data, contact:
 
-**Shaikha Alsuwaidi** \
-United Arab Emirates \
+**Shaikha Alsuwaidi**
+United Arab Emirates
 Email: **chengyudrop@gmail.com**
 
 ## 14. Cookie Policy
