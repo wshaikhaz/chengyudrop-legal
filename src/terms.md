@@ -190,8 +190,8 @@ If you obtained the App from Google Play, your use is also subject to the Google
 
 Questions about these Terms:
 
-**Shaikha Alsuwaidi**
-United Arab Emirates
+**Shaikha Alsuwaidi** \
+United Arab Emirates \
 Email: **chengyudrop@gmail.com**
 
 ## 23. Acknowledgment
